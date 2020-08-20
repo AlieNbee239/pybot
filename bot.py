@@ -11,7 +11,7 @@ while True  :
          os.system("notepad")
      elif(("run"in p) or ("open" in p)) and("skype" in p) :
          os.system("skype")
-     elif ("turn"in p) and("off" in p) :
+     elif ("turnoff"in p) or ("turn off" in p)  :
          os.system("shutdown /s /t 1")
      elif(("say"in p) or ("what" in p)) and ("time" in p) :
          x = datetime.datetime.now()
